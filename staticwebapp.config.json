@@ -1,5 +1,16 @@
 {
+    "routes" : [
+      {
+        "route": "/*",
+        "methods": null,
+        "allowedRoles": [],
+        "statusCode": null,
+        "redirect": null,
+        "rewrite": null
+      }
+    ],
     "navigationFallback": {
-        "rewrite": "/index.html"
+        "rewrite": "/index.html",
+        "exclude": null
     }
 }
